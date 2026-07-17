@@ -1,5 +1,5 @@
 [datalad "dataset"]
 	id = 8320f911-d110-4c82-b95b-285244cbae13
 [datalad "containers.toy-bids-app"]
-	image = images/toy-bids-app.sif
+	image = images/toy-bids-app-0.1.0.sif
 	cmdexec = apptainer exec --cleanenv --containall --no-home --no-mount cwd {img} {cmd}
