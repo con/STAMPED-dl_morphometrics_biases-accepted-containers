@@ -3,3 +3,6 @@
 [datalad "containers.toy-bids-app"]
 	image = images/toy-bids-app-0.1.0.sif
 	cmdexec = apptainer exec --cleanenv --containall --no-home --no-mount cwd {img} {cmd}
+[datalad "containers.simbids-0-0-3"]
+	image = .datalad/environments/simbids-0-0-3/image
+	cmdexec = singularity exec {img} {cmd}
